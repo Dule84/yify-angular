@@ -1,0 +1,15 @@
+.navbar-default{
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+.logo img{
+    margin-top: 20px;
+}
+.links{
+    margin-top: 20px;
+}
+.links li a{
+    font-size: .85em;
+    font-weight: bold;
+    color: #919191;
+}

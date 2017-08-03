@@ -1,0 +1,2 @@
+If you want to start this project on localhost in Google Chrome you must disable X-XSRF-Token, because there is CORS issue with
+https and http protocols. If you work in Mozzila then everything will work fine.

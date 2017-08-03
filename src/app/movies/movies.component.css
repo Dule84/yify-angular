@@ -1,0 +1,30 @@
+h1{
+    color: #fff;
+    letter-spacing: -.03em;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.header p{
+    color: #ccc;
+    width: 650px;
+    margin: 0 auto;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.caption h4{
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    margin-top: -10px;
+}
+.img img{
+    border: 3px solid white;
+}
+.year h5{
+    font-size: .85em;
+    color: #919191;
+}
+.part{
+    margin-top: 20px;
+}

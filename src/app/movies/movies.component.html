@@ -1,0 +1,19 @@
+<div class="row header">
+    <h1>Download YTS YIFY movies: HD smallest size</h1>
+    <p>Welcome to the official YTS.AG website. Here you will be able to browse and download YIFY movies in excellent 720p, 1080p and 3D quality, all at the smallest file size. Only here: YTS Movies Torrents.</p>
+</div>
+<div class="row">
+    <a href="" class="link">
+        <div class="col-sm-4 col-md-3 part" *ngFor="let movie of data?.movies" [routerLink]="['/movie', movie?.id]">
+            <div class="thumbnail img">
+                <img src="{{ movie.medium_cover_image }}" alt="...">
+            </div>
+            <div class="caption">
+                <h4>{{ movie.title | limitTo: 24 }}{{movie.summary.length > 24 ? '' : ''}}</h4>
+            </div>
+            <div class="caption year">
+                <h5>{{ movie.year }}</h5>
+            </div>
+        </div>
+    </a>
+</div>

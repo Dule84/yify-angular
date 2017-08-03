@@ -1,0 +1,13 @@
+<div class="container" *ngIf="data">
+  <div class="col-md-3 image">
+    <img src="{{ data?.movie.medium_cover_image }}">
+  </div>
+  <div class="col-md-5">
+    <h1>{{ data?.movie.title }}</h1>
+    <p>{{ data?.movie.year }}</p>
+    <p>Genre: {{ data?.movie.genres }}</p>
+    <p>{{ data?.movie.description_full }}</p>
+  </div>
+  <div class="col-md-4">
+  </div>
+</div>

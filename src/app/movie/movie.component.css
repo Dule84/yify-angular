@@ -1,0 +1,14 @@
+.image img{
+    border: 5px solid white;
+}
+h1{
+    color: #fff;
+    letter-spacing: -.03em;
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+}
